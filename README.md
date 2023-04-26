@@ -18,3 +18,7 @@ Si quieren trabajar desde Anaconda les dejo un pequeño ejemplo:
 
     #Leer los datos
     deaths = pd.read_csv('datasets/deaths.csv')
+
+¡Este taller básico de Pandas esta dirigido para todos aquellas personas que quieran reforzar sus conocimientos con la libreria Pandas y utilizarlo como ejercicio! 
+
+Un gran agradecimiento a [Robin Wilson](https://blog.rtwilson.com/john-snows-famous-cholera-analysis-data-in-modern-gis-formats/) de la Universidad de Southampton, quien digitalizó los datos originales de John Snow y los georeferenció al sistema de coordenadas Ordnance Survey que nos permitirá analizarlos y superponerlos en mapas modernos de esa área.
