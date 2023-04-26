@@ -23,6 +23,6 @@ Utilizaremos la librería de pandas, ojo, lo estoy escribiendo como si estuviera
   Para que puedan utilizar los archivos CSV deben de llamarlos de esta forma:
   
        #Leer los datos
-        url = 'https://raw.githubusercontent.com/jdanifalcon/johnsnow/main/datasets/deaths.csv'
+        url = 'https://raw.githubusercontent.com/tu_usuario/johnsnow/main/datasets/deaths.csv'
         deaths = pd.read_csv(url,encoding = 'utf-8')
      
