@@ -8,4 +8,19 @@ Como defensor principal tanto de la anestesia como de las prácticas higiénicas
 
 Pero, como mostraremos más adelante, no toda su vida fue solo un éxito. John Snow ahora también es reconocido como uno de los fundadores de la epidemiología moderna (algunos también lo consideran como el fundador de la visualización de datos, el análisis espacial, la ciencia de datos en general y muchos otros campos relacionados) por su enfoque científico y bastante moderno en la recolección de datos para identificar la fuente de un brote de cólera en Soho, Londres, en 1854, pero no siempre fue así. De hecho, durante mucho tiempo fue simplemente ignorado por la comunidad científica y actualmente se mitifica con frecuencia.
 
-En este cuaderno, no solo vamos a redescubrir su "historia de datos", sino también a analizar de nuevo los datos que recopiló en 1854 y recrear su famoso mapa (también conocido como El Mapa Fantasma).
+En este cuaderno, no solo vamos a redescubrir su "historia de datos", sino también a analizar de nuevo los datos que recopiló en 1854 y recrear su famoso mapa (también conocido como "El Mapa Fantasma").
+
+Utilizaremos la librería de pandas, ojo, lo estoy escribiendo como si estuvieramos en la consola pero se escribe de otra forma:
+
+    # Loading in the pandas module
+    import pandas as pd
+
+    # Reading in the data
+    deaths = pd.read_csv('datasets/deaths.csv')
+
+    # Print out the shape of the dataset
+    print(deaths.shape)
+
+    # Printing out the first 5 rows
+    deaths.head()
+     
